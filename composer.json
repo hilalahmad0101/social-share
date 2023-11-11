@@ -1,0 +1,29 @@
+{
+    "name": "hilalahmad/social-share",
+    "type": "library",
+    "description": "The Social-share PHP package is a versatile and easy-to-use library designed to simplify the integration of social media sharing functionality into PHP applications. With this package, developers can effortlessly generate share links for various social media platforms and customize the associated styles.",
+    "version": "1.0.0",
+    "keywords": [
+        "socialshare",
+        "socialmedia",
+        "sharemedia",
+        "share"
+    ],
+    "require": {
+        "php": "^7.2 || ^8.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Hilalahmad\\SocialShare\\": "src/",
+            "Hilalahmad\\DesignSocialShare\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "fullstack124",
+            "email": "stackf63@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
